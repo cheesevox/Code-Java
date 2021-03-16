@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/TessPractical">
+<Resource
+name="DB"
+type="javax.sql.DataSource"
+driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+url="jdbc:sqlserver://localhost:1433;databaseName=FoodManagement"
+username="sa" password ="1623"
+/> 
+</Context>

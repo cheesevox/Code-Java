@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/PETest">
+  <!--    <Resource
+        name="DBCon" auth="Container" type="javax.sql.DataSource"
+        username = "sa" password = "152"
+        driverClassName = "com.microsoft.sqlserver.jdbc.SQLServerDriver"
+        url = "jdbc:sqlserver://localhost:1433;databaseName=UserManagement"
+    />-->
+  <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" name="DB" password="152" type="javax.sql.DataSource" url="jdbc:sqlserver://localhost:1433;databaseName=UserManagement" username="sa"/>
+</Context>

@@ -1,0 +1,25 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06-10-2020, 10:55:27
+    Author     : cheeese vox
+*/
+container{
+    width: 886px;
+    height: 1000px;
+    border: 1px solid black;
+    margin: 0  auto;
+}
+preheader{
+    background:  url(../images/preheader.jpg);
+    width: 886px;
+    height: 71px
+}
+header{
+    background: url(../images/header.jpg);
+    width: 886px;
+    height: 78px
+}

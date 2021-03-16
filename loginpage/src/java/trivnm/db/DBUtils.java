@@ -1,0 +1,26 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package trivnm.db;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+/**
+ *
+ * @author Admin
+ */
+public class DBUtils {
+    public static Connection getConnection(){
+        Connection conn =null;
+        try {
+            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+            conn = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;database=management","sa","1623");
+            
+        } catch (Exception e) {
+        }
+        return conn;
+    }
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <include file="example.xml"/>
+    <!-- Configuration for the default package. -->
+    <package name="default" extends="struts-default">
+        <action name ="LoginAction" class="khamdd.actions.LoginAction">
+            <result name = "admin">admin.jsp</result>
+            <result name = "user">user.jsp</result>
+            <result name = "error">error.jsp</result>
+            <result name = "input">login.jsp</result>
+        </action>
+        <action name = "SearchAction" class="khamdd.actions.SearchAction">
+            <result name = "success">user.jsp</result>
+        </action>
+    </package>
+</struts>
